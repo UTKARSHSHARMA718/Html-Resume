@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
+</head>
+<body>
+
+    <H1>Resume</H1>
+
+    <p class="name">Name:UtkarshSharma</p>
+    <p class="name">Email id: <a href="mailto:sharmaking894@gmail.com"> sharmaking894@gmail.com     </a>  </p>
+    <p class="name">Mobile:8800976185</p>
+
+<hr>
+    <img src="avatar.png" alt="profile pic">
+    <iframe src="resume_iframe_edu.html" id="iframe"  title="education" frameborder="0" ></iframe>
+<hr>
+    <strong><p onclick="change('resume_iframe_edu.html')" style="cursor: pointer;">Education & Qualification</p></strong>
+ <hr>
+    <strong><p onclick="change('resume_iframe_pro.html')" style="cursor: pointer;">Programming Skills</p></strong>
+ <hr>
+    <strong><p onclick="change('resume_iframe_cert.html')" style="cursor: pointer;">Certificates</p></strong>
+
+
+    <script>
+function change(link1){
+
+    //How to change any element src using javascript.
+    const frame111=document.getElementById('iframe');
+    frame111.src=link1;
+}
+
+    </script>
+</body>
+</html>
